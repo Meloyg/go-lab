@@ -9,23 +9,18 @@ Learning-focused Go workspace with small examples.
 ## Setup
 
 ```bash
-go mod init go-lab
+cd examaple
+go mod init
 ```
 
 ## Build
 
 ```bash
-go build ./...
+go build
 ```
 
 ## Test
 
 ```bash
-go test ./...
-```
-
-## Run an example
-
-```bash
-go run ./example
+go test -v
 ```
